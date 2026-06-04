@@ -1,4 +1,7 @@
 {
-  "version": "1.0.9",
-  "url": "https://sam2k21.github.io/sugr-firmware/firmware.bin"
+  "version": "1.1.0",
+  "url": "https://sam2k21.github.io/sugarhalo-firmware/firmware.bin",
+  "size_bytes": 1958752,
+  "sha256": "95b7ea0c4036c84b637a98b3144cb5fcc6f688085b83d4c05c9b1d8b9957356a",
+  "changelog": "Rebrands firmware and OTA feed to SugarHalo. Migrates old internal /storage/SUGR files to /storage/SUGARHAL so saved settings and custom sounds carry forward. Includes recent web portal polish, four custom sound slots, alert duration controls, update badges, and theme-aware contrast improvements."
 }

@@ -1,7 +1,7 @@
 {
-  "version": "1.1.7",
+  "version": "1.1.8",
   "url": "https://sam2k21.github.io/sugarhalo-firmware/firmware.bin",
-  "size_bytes": 1967280,
-  "sha256": "9fda4cd53e8057eff576a3218e228cebde8e6fba724e384f92487545f59d2ffc",
-  "changelog": "Fixes OTA installs that were still being blocked by low TLS headroom. The updater now uses a static internal-DRAM install stack, stops the web portal before taking the TLS window, and applies download-specific TLS heap thresholds."
+  "size_bytes": 1961216,
+  "sha256": "c83cab65d139b11fb4f7d65d1fc510c66637128e9ea16c57194f53cec9268b03",
+  "changelog": "Fixes boot-time Dexcom/TLS memory failures and improves OTA headroom. The LVGL display buffer now uses the actual RGB565 byte size, and the OTA installer keeps its internal stack only while an update is actively running."
 }

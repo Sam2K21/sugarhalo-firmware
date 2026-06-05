@@ -1,7 +1,7 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "url": "https://sam2k21.github.io/sugarhalo-firmware/firmware.bin",
-  "size_bytes": 1958752,
-  "sha256": "d7332e0327ddb6c96fc2eca1d77bef2914bac891d29ffb0adf797e85c31a5b57",
-  "changelog": "Moves the on-device Time popup controls 6 px lower for better spacing. Also includes the SugarHalo rebrand, internal storage migration, recent web portal polish, custom sound slots, alert duration controls, update badges, and theme-aware contrast improvements."
+  "size_bytes": 1960368,
+  "sha256": "5f05c519c85561a6b95943d5ce57411e450510b8a8fb383ddb27775daff3a9a3",
+  "changelog": "Fixes OTA and CGM HTTPS contention by serializing TLS operations, deferring CGM fetches while update checks are running, and requiring safer TLS heap headroom before starting certificate verification. Keeps the Time popup spacing adjustment from 1.1.1."
 }

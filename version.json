@@ -1,7 +1,7 @@
 {
-  "version": "1.1.9",
+  "version": "1.2.0",
   "url": "https://sam2k21.github.io/sugarhalo-firmware/firmware.bin",
-  "size_bytes": 1961200,
-  "sha256": "300f40844e3ceedb1371fda2e884be596f0e9a3644de37ca9d7f425061d23cff",
-  "changelog": "Fixes CGM fetch deferrals after successful Dexcom authentication. Auth still keeps the stricter TLS heap guard, while authenticated reading fetches can run with the smaller contiguous heap block seen after boot-time TLS cleanup."
+  "size_bytes": 1961232,
+  "sha256": "8a2ee0dcc15edd2e903aff9ff743c7c750cfc8a79bca81007e9cecf70d7afea6",
+  "changelog": "Updates the on-device Web Portal QR screen layout. The grey card now sits 20 px from the bottom, and the white QR background stays centered behind the QR code."
 }

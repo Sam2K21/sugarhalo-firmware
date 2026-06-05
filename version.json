@@ -1,7 +1,7 @@
 {
-  "version": "1.1.6",
+  "version": "1.1.7",
   "url": "https://sam2k21.github.io/sugarhalo-firmware/firmware.bin",
-  "size_bytes": 1961024,
-  "sha256": "efd316dbcaebc8ddd51ab757145e51527048990e385791ce48b1e1bfc7193c36",
-  "changelog": "Moves the on-device Web Portal QR panel up 14 px so it lines up with the raised QR code, PIN, and browser address content. Keeps the OTA checker/install stability fixes from 1.1.5."
+  "size_bytes": 1967280,
+  "sha256": "9fda4cd53e8057eff576a3218e228cebde8e6fba724e384f92487545f59d2ffc",
+  "changelog": "Fixes OTA installs that were still being blocked by low TLS headroom. The updater now uses a static internal-DRAM install stack, stops the web portal before taking the TLS window, and applies download-specific TLS heap thresholds."
 }

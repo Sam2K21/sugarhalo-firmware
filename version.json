@@ -1,7 +1,7 @@
 {
-  "version": "1.1.5",
+  "version": "1.1.6",
   "url": "https://sam2k21.github.io/sugarhalo-firmware/firmware.bin",
   "size_bytes": 1961024,
-  "sha256": "2f717a32c7469628ecefa03edf27d3e9b9b639810386429d1518c50fec62ab1f",
-  "changelog": "Fixes update checks on 1.1.4 by moving the always-running checker back to PSRAM and using an internal stack only for the short-lived OTA install task. Also adjusts OTA TLS headroom so the portal can correctly report up to date instead of low-memory failure."
+  "sha256": "efd316dbcaebc8ddd51ab757145e51527048990e385791ce48b1e1bfc7193c36",
+  "changelog": "Moves the on-device Web Portal QR panel up 14 px so it lines up with the raised QR code, PIN, and browser address content. Keeps the OTA checker/install stability fixes from 1.1.5."
 }

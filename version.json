@@ -1,7 +1,7 @@
 {
-  "version": "1.1.4",
+  "version": "1.1.5",
   "url": "https://sam2k21.github.io/sugarhalo-firmware/firmware.bin",
-  "size_bytes": 1960576,
-  "sha256": "ea897a195049fdb98525c73c6a70c313405941d80165914d82c15dc297a47bab",
-  "changelog": "Fixes OTA install crashes by moving the updater task stack back to internal RAM and increasing stack size before flash writes. Important: displays already on 1.1.2 may need one USB/serial flash because the old 1.1.2 updater can reboot before installing remote OTA."
+  "size_bytes": 1961024,
+  "sha256": "2f717a32c7469628ecefa03edf27d3e9b9b639810386429d1518c50fec62ab1f",
+  "changelog": "Fixes update checks on 1.1.4 by moving the always-running checker back to PSRAM and using an internal stack only for the short-lived OTA install task. Also adjusts OTA TLS headroom so the portal can correctly report up to date instead of low-memory failure."
 }

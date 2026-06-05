@@ -1,7 +1,7 @@
 {
-  "version": "1.2.0",
-  "url": "https://sam2k21.github.io/sugarhalo-firmware/firmware.bin",
-  "size_bytes": 1961232,
-  "sha256": "8a2ee0dcc15edd2e903aff9ff743c7c750cfc8a79bca81007e9cecf70d7afea6",
-  "changelog": "Updates the on-device Web Portal QR screen layout. The grey card now sits 20 px from the bottom, and the white QR background stays centered behind the QR code."
+  "version": "1.2.1",
+  "url": "https://sugarhalo-updates.pages.dev/firmware-1.2.1.bin",
+  "size_bytes": 1961216,
+  "sha256": "c03097740dc8abbdce34af1e4c270cf3cf44cceba2f64aecc7f8cc6ef0bf56c9",
+  "changelog": "Moves OTA update hosting from GitHub Pages to Cloudflare Pages. Future update checks now use the SugarHalo Cloudflare update host instead of the public GitHub firmware repository."
 }

@@ -1,7 +1,7 @@
 {
-  "version": "1.2.2",
-  "url": "https://sugarhalo-firmware-assets.samwright192.workers.dev/firmware-1.2.2.bin",
-  "size_bytes": 1961216,
-  "sha256": "4a5a946bdad89a8eab01e692b8be037bbc6daff9890f7c03e458970e996b107c",
-  "changelog": "Cloudflare-only OTA path validation release. Firmware downloads now use a range-aware Cloudflare Worker endpoint so ESP-IDF OTA receives Content-Length and 206 Partial Content responses."
+  "version": "1.2.3",
+  "url": "https://sugarhalo-firmware-assets.samwright192.workers.dev/firmware-1.2.3.bin",
+  "size_bytes": 1961312,
+  "sha256": "09fa4a042f475a0e58553922c342fc56f39b6b31b26559d90caf0c15163164ae",
+  "changelog": "Firmware-side OTA reliability fix. Partial HTTPS OTA range downloads now request non-persistent responses so the ESP-IDF OTA client reconnects cleanly between Cloudflare range chunks."
 }
